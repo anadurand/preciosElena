@@ -4,7 +4,7 @@
 const getJSON = (url, cb) => {
 
   const xhr = new XMLHttpRequest();
-
+  
   xhr.addEventListener('load', () => {
 
     if (xhr.status !== 200) {

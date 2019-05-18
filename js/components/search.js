@@ -33,7 +33,7 @@ const Search = (update) => {
   const parent = $('<div></div>');
   const div = $('<div class="container-search"></div>');
   const search = $('<div class="search"></div>');
-  const input = $('<input type="text" class="input" placeholder="Ingresar distrito">');
+  const input = $('<input type="text" class="input" placeholder="Ingresar producto">');
   const icon = $('<i class="fa fa-search icono"></i>');
   const containerStations = $('<div class="container-stations"></div>');
 

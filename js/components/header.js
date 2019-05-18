@@ -2,7 +2,7 @@
 
 const Header = (update) => {
   const header = $("<header></header>");
-  const title = $("<span>Gas Finder</span>");
+  const title = $("<span>Precios Elena</span>");
   const icon = $('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
   icon.on("click", (e) => {
     e.preventDefault();
