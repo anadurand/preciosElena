@@ -2,14 +2,14 @@
 
 const stationItem = (station, update) => {
   const item = $('<div class="station"></div>');
-  const h3 = $('<h3 class="title">'+ station.name +'</h3>');
+  const h3 = $('<h3 class="title">'+ station.producto +'</h3>');
   const icon = $('<a href="#" class="fa fa-map icon-map"></a>');
-  const pAddress = $('<p clas="address">'+ station.address + '</p>');
-  const pDistrict = $('<p class="district">' + station.district + '</p>');
+  //const pAddress = $('<p clas="address">'+ station.address + '</p>');
+  //const pDistrict = $('<p class="district">' + station.district + '</p>');
 
   item.append(h3);
-  item.append(pAddress);
-  item.append(pDistrict);
+  //item.append(pAddress);
+  //item.append(pDistrict);
   item.append(icon);
 
   icon.on("click", (e) => {
