@@ -10,7 +10,7 @@ const getJSON = (url, cb) => {
     if (xhr.status !== 200) {
       return cb(new Error('Error loading JSON from ' + url + '(' + xhr.status + ')'));
     }
-    console.log(xhr.response);
+    //console.log(xhr.response);
     cb(null, xhr.response);
   });
 
